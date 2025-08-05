@@ -4,11 +4,16 @@
   "description": "Backend for Medical Keeper application with database connection and authentication",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "node init && node server.js",
+    "dev": "node init && nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["medical", "healthcare", "database", "authentication"],
+  "keywords": [
+    "medical",
+    "healthcare",
+    "database",
+    "authentication"
+  ],
   "author": "Medical Keeper Team",
   "license": "MIT",
   "dependencies": {
@@ -25,4 +30,4 @@
   "devDependencies": {
     "nodemon": "^3.0.1"
   }
-} 
+}
